@@ -1,17 +1,26 @@
 import java.util.Scanner;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int m = sc.nextInt();
         int n = sc.nextInt();
+        int cnt = 0;
+        ArrayList<Integer> a = new ArrayList<>();
+
+        for (int i = 0; i < n; i++) {
+            a.add(sc.nextInt());
+        }
         sc.close();
 
-        for (int i = m; i <= n; i++) {
+        for (int i: a) {
             if (isPrime(i)) {
-                System.out.println(i);
+                //System.out.println(i + " is Prime");
+                cnt++;
             }
         }
+        
+        System.out.println(cnt);
     }
 
     public static boolean isPrime(int n) {
