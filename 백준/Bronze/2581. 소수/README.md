@@ -1,4 +1,4 @@
-# [Bronze Iㅑ] 2581: 소수
+# [Bronze II] 2581: 소수
 [문제 링크](https://www.acmicpc.net/problem/2581)
 
 ## 문제
