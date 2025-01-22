@@ -1,4 +1,4 @@
-# [Silver III] 2829: 분수 합
+# [Silver III] 1735: 분수 합
 [문제 링크](https://www.acmicpc.net/problem/1735)
 
 ## 문제
